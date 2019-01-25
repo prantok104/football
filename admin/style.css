@@ -1,0 +1,307 @@
+/**
+* Author : Pranto kuamr
+* Theme Name: Vesta || Startup and Agency Bootstrap-3.3.7 Template
+* Version: 1.0.0
+*/
+
+/*-----------------------------------
+Google Font
+-------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto:400,700,900');
+
+/*-----------------------------------
+Default CSS
+-------------------------------------*/
+*{
+    margin: 0;
+    padding: 0
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    margin: 0;
+    padding: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.2px;
+}
+.margin-top{
+    margin-top: 40px;
+}
+.margin-bottom{
+    margin-bottom: 40px
+}
+.margin-both{
+    margin: 40px 0px
+}
+
+.padding-top{
+    padding-top: 40px;
+}
+.padding-bottom{
+    padding-bottom: 40px
+}
+.padding-both{
+    padding: 40px 0px
+}
+.clear{
+    clear: both
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+a{
+    text-decoration: none;
+    display: inline-block
+}
+a:hover{
+    text-decoration: none
+}
+a:visited{
+    text-decoration: none
+}
+a:focus{
+    text-decoration: none
+}
+i{
+    font-weight: 700;
+    margin-right: 5px
+}
+img{
+    width: 100%;
+    height: 100%
+}
+center img{
+    width: 380px;
+    height: 380px
+}
+.table{
+    margin-bottom: 0
+}
+.default-btn {
+    background: rgba(0, 0, 0, 0) linear-gradient(to left, #363A3D, #0d0d0d) repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 900;
+    margin: 10px 0;
+    padding: 10px 40px;
+    text-transform: uppercase;
+    transition: 0.4s all  ease-in-out;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border: 1px solid #313337
+}
+.default-btn:hover {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #363A3D, #0d0d0d) repeat scroll 0 0;
+    color: #fff
+}
+.is-hidden{
+    display: none
+}
+
+.total-admin-area {
+    height: auto;
+    width: 100%;
+}
+.total-admin-area .menu-area {
+    background: #2ECC71 none repeat scroll 0 0;
+    height: 100vh;
+    width: 20%;
+    float: left;
+}
+.menu-title > a {
+    border-bottom: 1px solid #27AE60;
+    color: #fff;
+    display: block;
+    padding: 8px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 2px 
+}
+.title-bar {
+    float: left;
+    height: 100vh;
+    width: 80%;
+}
+
+.head-title {
+    background: #27ae60 none repeat scroll 0 0;
+    width: 100%;
+}
+.head-title .text-right > a {
+    color: #fff;
+    font-size: 12px;
+    padding: 1px 20px;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out
+}
+.menu-title > a:hover, .head-title .text-right > a:hover{
+    background: #2ecc71
+}
+.collapse.navbar-collapse.bs-example-js-navbar-collapse {
+    padding: 0;
+}
+.nav.navbar-nav{
+    width: 100%
+}
+.nav > li {
+    display: block;
+    position: relative;
+}
+.navbar-nav > li > a {
+    background: #2ecc71 none repeat scroll 0 0;
+    border-bottom: 1px solid #27AE60;
+    color: #fff;
+    display: block;
+    padding: 7px;
+    transition: all 0.2s ease-in-out 0s;
+}
+.navbar-nav > li > a:focus{
+    color: #27AE60
+}
+.navbar-nav > li> a:hover{
+    color:#27AE60
+}
+.navbar-nav > li {
+    float: none
+}
+.navbar-nav > li > .dropdown-menu {
+    background: #27ae60 none repeat scroll 0 0;
+    margin-top: 0;
+    width: 100%;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+    transition: 0.2s ease-in-out
+}
+.dropdown-menu > li > a:hover{
+    background: #2ECC71;
+    color: #fff
+    
+}
+.navbar-nav > li > .dropdown-menu {
+    left: 234px;
+    top: -1px;
+}
+.sand-box {
+    box-shadow: 0 3px 26px 0 #ddd;
+    margin-left: 18px;
+    margin-top: 18px;
+    padding: 10px;
+}
+.sand-box h3 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2ECC71
+}
+.sand-box > p {
+    font-size: 12px;
+}
+.ranking-schedule{
+    margin-top: 20px
+}
+.ranking table thead{
+    background: #2ECC71;
+    color: #fff
+}
+.ranking h2 {
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.ranking table {
+    background: rgba(0, 0, 0, 0) url("assets/img/heading.jpg") no-repeat scroll center center / cover ;
+    color: #fff;
+    position: relative;
+    z-index: 1
+}
+.ranking table:after{
+    position: absolute;
+    width:100%;
+    height:100%;
+    content: '';
+    background: #000;
+    opacity: 0.5;
+    left: 0;
+    top: 0;
+    z-index: -1
+}
+.news-area-start{
+    margin-top: 20px
+}
+.news-img img {
+    height: 70vh;
+    padding: 15px;
+}
+.news-title h2 {
+    background: #27ae60 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.news-post label {
+    background: #ddd none repeat scroll 0 0;
+    height: 60px;
+    padding: 20px 10px;
+    width: 60px;
+}
+.news-post input[type="file"]{
+    display: none
+}
+.news-post input{
+    margin-bottom: 10px
+}
+.news-post button{
+    margin-top: 10px;
+    border: none
+}
+.bg-primary, .btn-primary{
+    background: #27AE60
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+    background: #2ECC71
+}
+.news-img h4 {
+    background: #27ae60 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.news-img > p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-left: 5px;
+}
+.news-post img {
+    height: 18px;
+    width: 39px;
+}
+
+.photo-img > img {
+    height: 100%;
+    width: 100%;
+}
+label.photo-img {
+    height: 250px;
+    width: 100%;
+}
+.news-title {
+    height: 80vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+label.img-label {
+    height: 201px;
+    width: 100%;
+}
+img.photo-img {
+    height: 100%;
+    width: 100%;
+}
